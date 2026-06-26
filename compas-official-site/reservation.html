@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>訂位｜Compas Pasta House 康帕斯義麵屋</title>
+  <meta name="description" content="Compas Pasta House 康帕斯義麵屋訂位頁面。選擇用餐日期、人數、時間，或透過官方 LINE 聯繫訂位。">
+  <link rel="canonical" href="https://example.com/reservation.html">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">C</span><span><strong>Compas Pasta House</strong><small>康帕斯義麵屋</small></span></a>
+    <button class="nav-toggle" type="button" aria-label="開啟選單" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="主要導覽">
+      <a href="index.html">首頁</a>
+      <a href="menu.html">菜單</a>
+      <a class="active" href="reservation.html">訂位</a>
+      <a href="location.html">Google Map</a>
+      <a href="line.html">官方 LINE</a>
+    </nav>
+  </header>
+
+  <main class="page two-column">
+    <section class="page-heading">
+      <p class="section-label">Reservation</p>
+      <h1>線上訂位</h1>
+      <p>這個表單目前是前端展示版，不會真的送出資料。正式上線時可以串接 Google Form、訂位系統或 LINE。</p>
+    </section>
+
+    <form class="reservation-form" id="reservationForm">
+      <label>姓名<input type="text" name="name" placeholder="請輸入姓名" required></label>
+      <label>電話<input type="tel" name="phone" placeholder="請輸入聯絡電話" required></label>
+      <label>日期<input type="date" name="date" required></label>
+      <label>時間<select name="time" required><option value="">請選擇</option><option>11:30</option><option>12:30</option><option>18:00</option><option>19:00</option></select></label>
+      <label>人數<input type="number" name="party" min="1" max="12" value="2" required></label>
+      <label>備註<textarea name="note" rows="4" placeholder="兒童椅、生日、素食等需求"></textarea></label>
+      <button class="button primary full" type="submit">送出訂位需求</button>
+      <p class="form-note" id="formNote">送出後會在此顯示確認訊息。</p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Compas Pasta House 康帕斯義麵屋</p>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>

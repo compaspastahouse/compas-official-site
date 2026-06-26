@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title desc">
+  <title id="title">Compas Pasta House 康帕斯義麵屋義大利麵視覺</title>
+  <desc id="desc">番茄、羅勒、義大利麵與餐盤組成的品牌主視覺。</desc>
+  <rect width="900" height="760" fill="#fffaf2"/>
+  <circle cx="450" cy="388" r="286" fill="#f2e0c6"/>
+  <circle cx="450" cy="388" r="238" fill="#fffdf8" stroke="#23201d" stroke-width="8"/>
+  <path d="M244 396c74-76 151-112 231-108 86 4 147 40 181 108 26 51 1 102-66 137-88 47-224 48-309 3-70-37-84-88-37-140z" fill="#e9c46a"/>
+  <path d="M292 408c86-62 177-90 273-83M300 448c102-60 211-78 329-53M314 490c88-48 184-61 288-39" fill="none" stroke="#9f6f31" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="588" cy="322" r="42" fill="#b9382f"/>
+  <circle cx="641" cy="426" r="36" fill="#b9382f"/>
+  <circle cx="336" cy="343" r="34" fill="#b9382f"/>
+  <path d="M548 284c40-56 93-58 126-4-50 13-90 14-126 4zM298 296c27-55 74-70 122-34-36 30-77 41-122 34zM612 510c46-34 88-26 124 25-45 9-86 1-124-25z" fill="#2f6f4f"/>
+  <path d="M450 94l34 84 90 8-69 58 21 88-76-47-76 47 21-88-69-58 90-8z" fill="#b9382f"/>
+  <text x="450" y="690" text-anchor="middle" font-family="Georgia, serif" font-size="54" font-weight="700" fill="#23201d">COMPAS</text>
+</svg>
