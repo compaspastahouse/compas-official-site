@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://compas-official-site.compaspastahouse.workers.dev/</loc><priority>1.0</priority></url>
-  <url><loc>https://compas-official-site.compaspastahouse.workers.dev/menu.html</loc><priority>0.8</priority></url>
-  <url><loc>https://compas-official-site.compaspastahouse.workers.dev/reservation.html</loc><priority>0.8</priority></url>
-  <url><loc>https://compas-official-site.compaspastahouse.workers.dev/location.html</loc><priority>0.8</priority></url>
-  <url><loc>https://compas-official-site.compaspastahouse.workers.dev/line.html</loc><priority>0.7</priority></url>
+  <url><loc>https://compas-official-site.compaspastahouse.workers.dev/menu</loc><priority>0.8</priority></url>
+  <url><loc>https://compas-official-site.compaspastahouse.workers.dev/reservation</loc><priority>0.8</priority></url>
+  <url><loc>https://compas-official-site.compaspastahouse.workers.dev/location</loc><priority>0.8</priority></url>
+  <url><loc>https://compas-official-site.compaspastahouse.workers.dev/line</loc><priority>0.7</priority></url>
 </urlset>
