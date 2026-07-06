@@ -7,13 +7,14 @@
   <meta name="description" content="Compas Pasta House 康帕斯義麵屋官方網站，提供義大利麵、主廚菜單、訂位資訊、Google Map 店舖資訊與官方 LINE 加入好友。">
   <meta name="keywords" content="Compas Pasta House, 康帕斯義麵屋, compas pasta, 義大利麵, pasta house, 餐廳訂位, 官方LINE">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://example.com/">
+  <link rel="canonical" href="https://compas-official-site.compaspastahouse.workers.dev/">
   <meta property="og:title" content="Compas Pasta House 康帕斯義麵屋">
   <meta property="og:description" content="康帕斯義麵屋官方網站。查詢菜單、訂位、店舖資訊與加入官方 LINE。">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://example.com/">
-  <meta property="og:image" content="https://example.com/assets/compas-hero.svg">
+  <meta property="og:url" content="https://compas-official-site.compaspastahouse.workers.dev/">
+  <meta property="og:image" content="https://compas-official-site.compaspastahouse.workers.dev/assets/hero-pasta.jpg">
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/brand.css?v=20260705g">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -22,19 +23,36 @@
     "alternateName": ["Compas Pasta House", "康帕斯義麵屋", "Compas"],
     "servesCuisine": ["Italian", "Pasta", "義大利麵"],
     "description": "Compas Pasta House 康帕斯義麵屋提供義大利麵、主廚餐點、訂位與店舖資訊。",
-    "url": "https://example.com/",
-    "image": "https://example.com/assets/compas-hero.svg",
-    "telephone": "+886-請替換電話",
+    "url": "https://compas-official-site.compaspastahouse.workers.dev/",
+    "image": "https://compas-official-site.compaspastahouse.workers.dev/assets/hero-pasta.jpg",
+    "telephone": "+886-2-2570-0389",
+    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "請替換正式地址",
-      "addressLocality": "請替換城市",
-      "addressRegion": "請替換縣市",
+      "streetAddress": "八德路三段106巷69號",
+      "addressLocality": "松山區",
+      "addressRegion": "台北市",
+      "postalCode": "105",
       "addressCountry": "TW"
     },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "11:30",
+        "closes": "15:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "17:00",
+        "closes": "21:00"
+      }
+    ],
     "sameAs": [
-      "https://line.me/R/ti/p/@請替換官方line",
-      "https://maps.google.com/?q=Compas+Pasta+House"
+      "https://www.instagram.com/compas.pasta.house/",
+      "https://line.me/R/ti/p/%40compaspastahouse",
+      "https://www.google.com/maps/place/Compas+Pasta+House+%E5%BA%B7%E5%B8%95%E6%96%AF%E7%BE%A9%E9%BA%B5%E5%B1%8B+%7C+%E6%89%8B%E5%B7%A5%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5/@25.0446865,121.5519022,17z/"
     ]
   }
   </script>
@@ -42,71 +60,100 @@
 <body>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Compas Pasta House 首頁">
-      <span class="brand-mark">C</span>
-      <span>
-        <strong>Compas Pasta House</strong>
-        <small>康帕斯義麵屋</small>
-      </span>
+      <img src="assets/compas-logo-white.png" alt="Compas Pasta House">
     </a>
-    <button class="nav-toggle" type="button" aria-label="開啟選單" aria-expanded="false">☰</button>
+    <button class="nav-toggle" type="button" aria-label="開啟選單" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="site-nav" aria-label="主要導覽">
       <a class="active" href="index.html">首頁</a>
+      <a href="https://www.opentable.com.tw/restaurant/profile/189215?ref=18649" target="_blank" rel="noopener">訂位</a>
       <a href="menu.html">菜單</a>
-      <a href="reservation.html">訂位</a>
-      <a href="location.html">Google Map</a>
-      <a href="line.html">官方 LINE</a>
+      <a href="location.html">店舖資訊</a>
+      <a href="line.html">聯繫我們</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Compas Pasta House Official</p>
-        <h1>康帕斯義麵屋</h1>
-        <p class="hero-subtitle">以日常也值得被好好款待為起點，做一間讓人想再次回來的義麵屋。</p>
+      <img class="hero-photo" src="assets/hero-pasta-graded.jpg" alt="Compas Pasta House 手工義大利麵，番茄、時蔬與現刨起司">
+      <div class="hero-inner">
+        <p class="eyebrow">Compas Pasta House · Taipei</p>
+        <h1><span>手工義大利麵</span><span>手工醬料</span></h1>
+        <p class="hero-subtitle">Handmade pasta &amp; sauce with love.<br>把料理當作為家人煮的一餐，讓每一次相聚都被溫柔款待。</p>
         <div class="hero-actions">
-          <a class="button primary" href="reservation.html">立即訂位</a>
-          <a class="button secondary" href="menu.html">查看菜單</a>
+          <a class="button light" href="https://www.opentable.com.tw/restaurant/profile/189215?ref=18649" target="_blank" rel="noopener">立即訂位</a>
+          <a class="text-link" href="menu.html">查看正式菜單 <span aria-hidden="true">→</span></a>
         </div>
       </div>
-      <img class="hero-image" src="assets/compas-hero.svg" alt="Compas Pasta House 康帕斯義麵屋招牌義大利麵視覺">
+      <a class="scroll-cue" href="#story" aria-label="向下閱讀品牌故事">SCROLL</a>
     </section>
 
-    <section class="intro section">
-      <div>
-        <p class="section-label">Brand Story</p>
-        <h2>Compas 是一個方向，也是一份餐桌上的安心感。</h2>
+    <section class="photo-story" aria-label="Compas Pasta House 餐桌與料理氛圍">
+      <figure class="photo-interior">
+        <img src="assets/interior-graded.jpg" alt="Compas Pasta House 採光明亮、溫暖舒適的店內用餐空間">
+        <figcaption>一間讓人安心坐下來，好好吃飯的義麵屋。</figcaption>
+      </figure>
+      <figure class="photo-menu">
+        <img src="assets/table-menu-graded.jpg" alt="Compas Pasta House 木桌上的菜單、餐具與燭光">
+        <figcaption>在一張桌子上，好好準備每一次相聚。</figcaption>
+      </figure>
+      <figure class="photo-spread">
+        <img src="assets/table-spread-graded.jpg" alt="多道手工義大利麵、飲品與麵包組成的餐桌風景">
+        <figcaption>分享一桌料理，也分享今天的日常。</figcaption>
+      </figure>
+      <figure class="photo-pasta">
+        <img src="assets/pasta-blue-plate-graded.jpg" alt="藍色餐盤盛裝的手工義大利麵與炭烤時蔬">
+        <figcaption>手工麵體、當季蔬菜與剛剛好的家常滋味。</figcaption>
+      </figure>
+      <figure class="photo-cheese">
+        <img src="assets/cheese-pasta-natural-green.jpg" alt="為現做義大利麵刨上新鮮起司">
+        <figcaption>現點現做，讓香氣在上桌前完整落下。</figcaption>
+      </figure>
+    </section>
+
+    <section class="intro section" id="story">
+      <div class="pasta-accent story-watermark story-watermark-shell" aria-hidden="true">
+        <img src="assets/pasta-shell-watercolor.png" alt="">
       </div>
-      <p>「康帕斯」像指南針一樣，代表一個可以被找到、被記住、被推薦的地方。網站內容刻意清楚放入品牌中英文名稱、餐點類型、訂位與地圖資訊，讓 Google Search 和 AI Chat 更容易理解妳的品牌。</p>
+      <div class="pasta-accent story-watermark-twist" aria-hidden="true">
+        <img src="assets/pasta-twist-watercolor.png" alt="">
+      </div>
+      <div class="pasta-accent story-watermark-fold" aria-hidden="true">
+        <img src="assets/pasta-fold-watercolor.png" alt="">
+      </div>
+      <div class="story-title">
+        <p class="section-label">Our Story</p>
+        <h2>同理心，<br>從一盤義大利麵開始。</h2>
+      </div>
+      <div class="story-copy">
+        <p class="story-lead">Compas Pasta House 以「同理心 Compassion」為初衷，打造一間如同為家人煮飯般的手工義大利麵專賣店。</p>
+        <p>我們把溫暖與療癒包進每一道餐點，堅持手工製作義大利麵與醬料，讓大家都能安心、自在地用餐。</p>
+        <a class="underlined-link" href="menu.html">探索本日菜單</a>
+      </div>
     </section>
 
-    <section class="feature-grid section" aria-label="網站重點功能">
-      <a class="feature-card" href="menu.html">
-        <span>01</span>
-        <h3>主廚菜單</h3>
-        <p>集中展示義大利麵、前菜、飲品與推薦品項，幫助搜尋引擎理解餐廳服務。</p>
-      </a>
-      <a class="feature-card" href="reservation.html">
-        <span>02</span>
-        <h3>線上訂位</h3>
-        <p>提供清楚的訂位入口與用餐資訊，降低客人找不到預約方式的流失。</p>
-      </a>
-      <a class="feature-card" href="location.html">
-        <span>03</span>
-        <h3>店舖資訊</h3>
-        <p>整理地址、營業時間與 Google Map，讓本地搜尋更容易連到官方資訊。</p>
-      </a>
-      <a class="feature-card" href="line.html">
-        <span>04</span>
-        <h3>官方 LINE</h3>
-        <p>把加入好友做成獨立頁面，方便 AI 回答客人如何聯繫品牌。</p>
-      </a>
+    <section class="visit-band" aria-label="訂位與店舖資訊">
+      <div class="pasta-outline-cluster" aria-hidden="true">
+        <span class="pasta-outline outline-shell"><img src="assets/pasta-shell-outline.png" alt=""></span>
+        <span class="pasta-outline outline-twist"><img src="assets/pasta-twist-outline.png" alt=""></span>
+        <span class="pasta-outline outline-fold"><img src="assets/pasta-fold-outline.png" alt=""></span>
+      </div>
+      <div class="visit-copy">
+        <p class="section-label">Come Visit Us</p>
+        <h2><span>今天，</span><span>來吃一盤</span><span>好好做的義大利麵</span></h2>
+        <p>台北市松山區八德路三段106巷69號<br>週三至週日 11:30–15:00、17:00–21:00</p>
+      </div>
+      <div class="visit-actions">
+        <a href="https://www.opentable.com.tw/restaurant/profile/189215?ref=18649" target="_blank" rel="noopener"><span>01</span><strong>預訂座位</strong><small>Reservation</small></a>
+        <a href="location.html"><span>02</span><strong>店舖資訊</strong><small>Location</small></a>
+        <a href="line.html"><span>03</span><strong>加入 LINE</strong><small>Stay in touch</small></a>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
+    <img src="assets/compas-logo.png" alt="" aria-hidden="true">
     <p>© 2026 Compas Pasta House 康帕斯義麵屋</p>
-    <p>官方網站｜菜單｜訂位｜Google Map｜官方 LINE</p>
+    <p><a href="menu.html">菜單</a> · <a href="https://www.opentable.com.tw/restaurant/profile/189215?ref=18649" target="_blank" rel="noopener">訂位</a> · <a href="location.html">Google Map</a> · <a href="line.html">官方 LINE</a> · <a href="https://www.instagram.com/compas.pasta.house/" target="_blank" rel="noopener">Instagram</a></p>
   </footer>
 
   <script src="assets/script.js"></script>

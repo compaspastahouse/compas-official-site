@@ -4,49 +4,120 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>菜單｜Compas Pasta House 康帕斯義麵屋</title>
-  <meta name="description" content="查看 Compas Pasta House 康帕斯義麵屋菜單：經典義大利麵、奶油白醬、番茄紅醬、清炒蒜香、前菜與飲品。">
-  <link rel="canonical" href="https://example.com/menu.html">
+  <meta name="description" content="查看 Compas Pasta House 康帕斯義麵屋正式菜單：手工義大利麵、前菜、飲品與手工甜點，包含慢燉番茄肉醬、培根奶黃麵、松露野菇與提拉米蘇。">
+  <link rel="canonical" href="https://compas-official-site.compaspastahouse.workers.dev/menu.html">
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/brand.css?v=20260704b">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html"><span class="brand-mark">C</span><span><strong>Compas Pasta House</strong><small>康帕斯義麵屋</small></span></a>
-    <button class="nav-toggle" type="button" aria-label="開啟選單" aria-expanded="false">☰</button>
+    <a class="brand" href="index.html" aria-label="Compas Pasta House 首頁"><img src="assets/compas-logo-white.png" alt="Compas Pasta House"></a>
+    <button class="nav-toggle" type="button" aria-label="開啟選單" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="site-nav" aria-label="主要導覽">
       <a href="index.html">首頁</a>
+      <a href="https://www.opentable.com.tw/restaurant/profile/189215?ref=18649" target="_blank" rel="noopener">訂位</a>
       <a class="active" href="menu.html">菜單</a>
-      <a href="reservation.html">訂位</a>
-      <a href="location.html">Google Map</a>
-      <a href="line.html">官方 LINE</a>
+      <a href="location.html">店舖資訊</a>
+      <a href="line.html">聯繫我們</a>
     </nav>
   </header>
 
-  <main class="page">
-    <section class="page-heading">
-      <p class="section-label">Menu</p>
-      <h1>康帕斯義麵屋菜單</h1>
-      <p>以下為官方網站展示版菜單，價格與品項可以依照實際營運再替換。</p>
+  <main class="page menu-page">
+    <section class="page-heading menu-heading">
+      <p class="section-label">Fresh Pasta · Fresh Sauce</p>
+      <h1>康帕斯義麵屋</h1>
+      <div class="menu-title-rule" aria-hidden="true"></div>
+      <p>手工義大利麵、手工醬料，餐點現點現做。價格與品項依現場供應為準。</p>
     </section>
 
-    <section class="menu-section">
-      <h2>招牌義大利麵</h2>
-      <div class="menu-list">
-        <article class="menu-item"><h3>經典番茄肉醬義大利麵</h3><p>慢熬番茄、香料與肉醬，適合第一次來的客人。</p><strong>NT$ 260</strong></article>
-        <article class="menu-item"><h3>奶油培根蛋黃義大利麵</h3><p>濃郁白醬、培根香氣與蛋黃口感。</p><strong>NT$ 280</strong></article>
-        <article class="menu-item"><h3>蒜香辣椒海鮮義大利麵</h3><p>清炒蒜香、辣椒與海鮮鮮味。</p><strong>NT$ 320</strong></article>
-        <article class="menu-item"><h3>青醬雞肉義大利麵</h3><p>羅勒青醬搭配雞肉，香氣清爽。</p><strong>NT$ 290</strong></article>
-      </div>
+    <section class="menu-poster-section" aria-label="康帕斯義麵屋完整菜單海報">
+      <img src="assets/menu-260701.png" alt="康帕斯義麵屋完整菜單，包含前菜、手工義大利麵、飲品與甜點">
     </section>
 
-    <section class="menu-section">
-      <h2>前菜與飲品</h2>
-      <div class="menu-list compact">
-        <article class="menu-item"><h3>今日濃湯</h3><strong>NT$ 90</strong></article>
-        <article class="menu-item"><h3>香蒜麵包</h3><strong>NT$ 80</strong></article>
-        <article class="menu-item"><h3>氣泡飲</h3><strong>NT$ 100</strong></article>
-        <article class="menu-item"><h3>美式咖啡</h3><strong>NT$ 110</strong></article>
-      </div>
-    </section>
+    <nav class="menu-tabs" aria-label="菜單分類">
+      <a href="#starters">前菜 <span>Side Dishes</span></a>
+      <a href="#pasta">手工義大利麵 <span>Fresh Pasta</span></a>
+      <a href="#drinks">飲品 <span>Drinks</span></a>
+      <a href="#desserts">手工甜點 <span>Desserts</span></a>
+    </nav>
+
+    <div class="menu-categories">
+      <section class="menu-category" id="starters">
+        <div class="menu-category-media">
+          <img src="assets/table-spread-graded.jpg" alt="康帕斯義麵屋前菜與餐桌料理">
+          <div><p>Starters</p><h2>前菜</h2></div>
+        </div>
+        <div class="menu-category-content">
+          <div class="menu-list">
+            <article class="menu-item"><div><h3>雲朵瑞可達普切塔</h3><p class="english-name">Whipped ricotta bruschetta</p><p>切片雜糧麵包鋪上自製瑞可達起司，搭配蜂蜜甜香與開心果脆口。</p></div><strong>280</strong></article>
+            <article class="menu-item"><div><h3>COMPAS 烤櫛瓜</h3><p class="english-name">Roasted zucchini</p><p>厚切櫛瓜搭配起司，保留多汁與豐富層次。</p></div><strong>220</strong></article>
+            <article class="menu-item"><div><h3>起司香蒜麵包</h3><p class="english-name">Cheesy garlic bread</p><p>短圓法棍抹上自製香蒜醬，搭配帕馬森起司，鹹香濃郁、外酥內軟。</p></div><strong>180</strong></article>
+            <article class="menu-item"><div><h3>巴薩米可醋炒綜合菇菇</h3><p class="english-name">Sauteed balsamic mushrooms</p><p>陳年巴薩米可醋酸香明顯，多種菇類彈脆多汁。</p></div><strong>220</strong></article>
+            <article class="menu-item"><div><h3>經典凱薩沙拉</h3><p class="english-name">Caesar salad</p><p>蘿蔓生菜拌入鹹香凱薩醬，搭配小番茄、培根、南瓜籽與麵包丁。</p></div><strong>320</strong></article>
+            <article class="menu-item"><div><h3>季節湯品</h3><p>Seasonal soup</p></div><strong>160</strong></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-category" id="pasta">
+        <div class="menu-category-media">
+          <img src="assets/hero-pasta-graded.jpg" alt="康帕斯義麵屋手工義大利麵">
+          <div><p>Fresh Pasta</p><h2>手工義大利麵</h2></div>
+        </div>
+        <div class="menu-category-content">
+          <div class="menu-list detailed-menu">
+            <article class="menu-item"><div><h3>8 小時慢燉番茄肉醬貝殼麵</h3><p class="english-name">Slow-cooked beef ragu</p><p>選用美國牛頰肉與西式三寶細火慢燉，直到與自製番茄醬汁完全交融。入口一瞬，鮮甜、鹹香、濃郁全都匯聚在舌尖。</p></div><strong>330</strong></article>
+            <article class="menu-item"><div><h3>番茄松阪豬火炬麵</h3><p class="english-name">Amatriciana w Matsusaka pork</p><p>以百里香慢煎台灣在地松阪豬，搭配自製番茄醬汁，清爽而不失濃郁，是一道結合台式食材的義式經典料理。</p></div><strong>360</strong></article>
+            <article class="menu-item"><div><h3>經典培根奶黃麵</h3><p class="english-name">Carbonara</p><p>由特選新鮮蛋黃、帕達諾起司拌成奶黃醬，搭配培根與黑胡椒，是食材選用俐落、味道飽含張力的羅馬菜餚。（附水波蛋）</p></div><strong>310</strong></article>
+            <article class="menu-item"><div><h3>松露野菇白醬火炬麵</h3><p class="english-name">Truffle fungi</p><p>用拌入義大利進口松露的白酒奶油醬汁熬煮蘑菇、鮑魚菇與鴻禧菇，以黃金比例特製不膩口的義式家庭味。</p></div><strong>340</strong></article>
+            <article class="menu-item"><div><h3>田園炭烤時蔬百合麵 <span aria-label="辣">◆</span></h3><p class="english-name">Aglio e olio w roasted veggies</p><p>以大蒜、辣椒及初榨橄欖油大火翻炒，搭配六種當季蔬菜，簡單工法凸顯食材鮮味，蒜香微辣越吃越涮嘴。</p></div><strong>310</strong></article>
+            <article class="menu-item"><div><h3>托斯卡尼奶油蘆筍鮭魚麵 <span aria-label="辣">◆</span></h3><p class="english-name">Creamy Tuscan salmon</p><p>帶有些許辣度的特調奶醬與酥嫩的鮭魚相得益彰，小番茄與蘆筍的酸甜爽脆更增添層次，是零負評的完美搭配。</p></div><strong>430</strong></article>
+            <article class="menu-item"><div><h3>白酒奶油蛤蜊麵</h3><p class="english-name">Creamy Vongole</p><p>鮮活蛤蜊佐以溫順的白酒奶油醬汁，融合蒜與洋蔥的辛香甜潤，鹹香鮮甜平衡且豐富，彷彿海洋氣息在唇齒間氤漾。</p></div><strong>340</strong></article>
+          </div>
+          <aside class="menu-addons">
+            <h2>添加到義大利麵或沙拉</h2>
+            <p class="english-name">Add to your pasta or salad</p>
+            <p>嫩煎雞腿 100 · 松阪豬 110 · 花椰菜 50 · 櫛瓜 50 · 水波蛋 30</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="menu-category" id="drinks">
+        <div class="menu-category-media">
+          <img src="assets/table-spread-graded.jpg" alt="康帕斯義麵屋飲品與餐桌料理">
+          <div><p>Drinks</p><h2>飲品</h2></div>
+        </div>
+        <div class="menu-category-content">
+          <div class="menu-list">
+            <article class="menu-item"><div><h3>馬薩拉香料鮮奶茶</h3><p>Chai tea latte (H/I)</p></div><strong>150</strong></article>
+            <article class="menu-item"><div><h3>喝不膩鮮奶茶</h3><p>Tea latte (H/I)</p></div><strong>130</strong></article>
+            <article class="menu-item"><div><h3>百香泡泡爽</h3><p>Passion fruit soda (I)</p></div><strong>120</strong></article>
+            <article class="menu-item"><div><h3>蜜桃泡泡爽</h3><p>Peach soda (I)</p></div><strong>120</strong></article>
+            <article class="menu-item"><div><h3>特調檸檬紅茶</h3><p>Lemon tea (H/I)</p></div><strong>110</strong></article>
+            <article class="menu-item"><div><h3>冷萃金萱綠茶</h3><p>Cold brew Jin Xuan tea (I)</p></div><strong>100</strong></article>
+            <article class="menu-item"><div><h3>薰衣草茶（壺）</h3><p>Lavender tea (H)</p></div><strong>150</strong></article>
+            <article class="menu-item"><div><h3>義大利莫雷蒂啤酒</h3><p>Birra Moretti (I)</p></div><strong>160</strong></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-category" id="desserts">
+        <div class="menu-category-media">
+          <img src="assets/table-menu-graded.jpg" alt="康帕斯義麵屋手工甜點與餐桌氛圍">
+          <div><p>Desserts</p><h2>手工甜點</h2></div>
+        </div>
+        <div class="menu-category-content">
+          <div class="menu-list">
+            <article class="menu-item"><div><h3>COMPAS 提拉米蘇</h3><p>Tiramisu</p></div><strong>180</strong></article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <aside class="menu-notes">
+      <p>內用每人低消 NT$300，酌收 10% 服務費。</p>
+      <p>尖峰時刻用餐限時 90 分鐘，餐點現點現做。</p>
+    </aside>
   </main>
 
   <footer class="site-footer">

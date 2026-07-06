@@ -10,14 +10,10 @@
 - `location.html`：Google Map 與店舖資訊
 - `line.html`：官方 LINE 加入好友
 
-## 上線前要替換
+## 正式網址
 
-- `https://example.com/`：替換成正式網址
-- `請替換正式地址`：替換成店舖地址
-- `請替換電話`：替換成店舖電話
-- `@請替換官方line`：替換成官方 LINE ID 或好友連結
-- Google Map iframe：替換成正式店舖的 Google Map 嵌入連結
-- 菜單品項與價格：替換成正式菜單
+- Cloudflare：`https://compas-official-site.compaspastahouse.workers.dev/`
+- 未來連接自訂網域後，需同步更新 canonical、Open Graph、JSON-LD、`robots.txt` 與 `sitemap.xml`。
 
 ## SEO/GEO 已先放入的內容
 
